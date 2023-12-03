@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#main #container {
+    margin-top: 5%;
+    border: 1px solid #000;
+    width: 40%;
+    min-height: 700px;
+}
+
+#main #container #user_img {
+    padding: 20px 0;
+}
+
+#main #container #user_img img {
+    width: 40%;
+}
+
+#main #container #user_info h2{
+    margin-bottom: 32px;
+}
+
+#main #container #user_info input {
+    margin-bottom: 30px;
+    padding: 12px 20px;
+}
